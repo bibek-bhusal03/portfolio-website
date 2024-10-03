@@ -3,34 +3,35 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+I'm Bibek Bhusal, a full-stack developer from Butwal, Nepal, with over 3+ years of experience in software development. Currently, I am pursuing a BSc CSIT degree while refining my skills in building robust, scalable, and high-performance applications.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+My expertise lies in using JavaScript for both frontend and backend development. I work with modern tools and frameworks like React for building dynamic user interfaces and Node.js with Express for creating efficient server-side applications. I am also proficient in leveraging Docker for containerization and AWS for deploying scalable cloud solutions. I emphasize automation and integration with CI/CD pipelines to ensure seamless development workflows.
 
 <div>
   <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
-## Tech Stack
+## Tech Stack & Tools
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+Here are some of the key technologies I work with:
+
+- **JavaScript/TypeScript**: For building both frontend and backend solutions
+- **React**: For creating dynamic, high-performance user interfaces
+- **Node.js & Express**: For server-side development and API creation
+- **SQL & MongoDb**: For storing data
+- **Prisma & Mongoose**: For backend ORM & ODM
+- **Git & Github**: For version control
+- **Docker**: For containerized application development and deployment
+- **AWS**: For cloud services and scalable deployment solutions
+- **CI/CD**: For automating development and deployment processes
 
 ## Features
 
-Here are certain features of this site.
+The qualities I focus on in development include:
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+- building scalable, performant applications
+- delivering responsive, accessible web solutions
+- integrating cloud services and containers for scalability
+- automating workflows with CI/CD pipelines
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+Feel free to reach out if you'd like to collaborate or learn more about my work!
