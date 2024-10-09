@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "https://bibekbhusal0.com.np/", // replace this with your deployed domain
   author: "Bibek",
   profile: "https://www.linkedin.com/in/bibekbhusal1/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "Full-stack developer specializing in JavaScript, React, Node.js, Docker, and AWS. Building scalable, high-performance web applications with modern tools and cloud technologies.",
   title: "Bibek Bhusal",
   ogImage: "ogImage.png",
   lightAndDarkMode: true,
@@ -80,70 +80,70 @@ export const SOCIALS: SocialObjects = [
     linkTitle: `${SITE.title} on WhatsApp`,
     active: true,
   },
-  {
-    name: "Snapchat",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Snapchat`,
-    active: false,
-  },
-  {
-    name: "Pinterest",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Pinterest`,
-    active: false,
-  },
-  {
-    name: "TikTok",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on TikTok`,
-    active: false,
-  },
-  {
-    name: "CodePen",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on CodePen`,
-    active: false,
-  },
+  // {
+  //   name: "Snapchat",
+  //   href: "https://github.com/satnaing/astro-paper",
+  //   linkTitle: `${SITE.title} on Snapchat`,
+  //   active: false,
+  // },
+  // {
+  //   name: "Pinterest",
+  //   href: "https://github.com/satnaing/astro-paper",
+  //   linkTitle: `${SITE.title} on Pinterest`,
+  //   active: false,
+  // },
+  // {
+  //   name: "TikTok",
+  //   href: "https://github.com/satnaing/astro-paper",
+  //   linkTitle: `${SITE.title} on TikTok`,
+  //   active: false,
+  // },
+  // {
+  //   name: "CodePen",
+  //   href: "https://github.com/satnaing/astro-paper",
+  //   linkTitle: `${SITE.title} on CodePen`,
+  //   active: false,
+  // },
   {
     name: "Discord",
     href: "Discordapp.com/users/bibekbhusal_27221",
     linkTitle: `${SITE.title} on Discord`,
     active: true,
   },
-  {
-    name: "GitLab",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on GitLab`,
-    active: false,
-  },
-  {
-    name: "Reddit",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Reddit`,
-    active: false,
-  },
-  {
-    name: "Skype",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Skype`,
-    active: false,
-  },
-  {
-    name: "Steam",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Steam`,
-    active: false,
-  },
-  {
-    name: "Telegram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Telegram`,
-    active: false,
-  },
-  {
-    name: "Mastodon",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Mastodon`,
-    active: false,
-  },
+  // {
+  //   name: "GitLab",
+  //   href: "https://github.com/satnaing/astro-paper",
+  //   linkTitle: `${SITE.title} on GitLab`,
+  //   active: false,
+  // },
+  // {
+  //   name: "Reddit",
+  //   href: "https://github.com/satnaing/astro-paper",
+  //   linkTitle: `${SITE.title} on Reddit`,
+  //   active: false,
+  // },
+  // {
+  //   name: "Skype",
+  //   href: "https://github.com/satnaing/astro-paper",
+  //   linkTitle: `${SITE.title} on Skype`,
+  //   active: false,
+  // },
+  // {
+  //   name: "Steam",
+  //   href: "https://github.com/satnaing/astro-paper",
+  //   linkTitle: `${SITE.title} on Steam`,
+  //   active: false,
+  // },
+  // {
+  //   name: "Telegram",
+  //   href: "https://github.com/satnaing/astro-paper",
+  //   linkTitle: `${SITE.title} on Telegram`,
+  //   active: false,
+  // },
+  // {
+  //   name: "Mastodon",
+  //   href: "https://github.com/satnaing/astro-paper",
+  //   linkTitle: `${SITE.title} on Mastodon`,
+  //   active: false,
+  // },
 ];
