@@ -83,18 +83,19 @@ This command creates a hidden .git subdirectory in your project, where Git store
 
 ### Git Workflow
 
-<img src="/public/assets/git/git-workflow.svg.svg" alt="git workflow image"></img>
+<img src="https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458971/git/git-workflow.svg_ncp6ud.svg" alt="git workflow image"></img>
+
 When your project reaches a point where you want to save it, you "commit" the changes, which is like taking a snapshot of your project at that point in time. Before committing, Git uses a staging area to prepare what should be included in the snapshot. In this we propose or put what we want to commit.
 
 ## Example Workflow:
 
 ### Create two files in a folder of your choice.
 
-<img src="/public/assets/git/create-file.png" alt="create 2 files"></img>
+<img src="https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458969/git/create-file_v7lzgq.png" alt="create 2 files"></img>
 
 ### **Initialize Git in the project directory:**
 
-<img src="/public/assets/git/initialize-git.png" alt="initialize git repository"></img>
+<img src="https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458971/git/initialize-git_d0zkbf.png" alt="initialize git repository"></img>
 
 ```bash
 git init
@@ -109,7 +110,7 @@ ls -Force  /*and for windows you can do this:/*
 
 ### **Add files to the staging area:**
 
-<img src="/public/assets/git/stage-file.png" alt="stage file"></img>
+<img src="https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458971/git/stage-file_ggzul5.png" alt="stage file"></img>
 
 ```bash
 git add file1.txt file2.txt
@@ -128,7 +129,7 @@ git commit
 ```
 
 It will open your default text editor(vscode(what I use), vim, neovim or any other according to your configuration). Here, you can type your commit message:
-<img src="/public/assets/git/first-commit.png" alt="image creating first commit"/>
+<img src="https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458970/git/first-commit_rxqt63.png" alt="image creating first commit"/>
 
 - The first line should be a short summary of the changes (ideally 50 characters or less).
 - Leave a blank line after the summary, then provide a more detailed description if necessary.
@@ -154,21 +155,21 @@ git log
 git log --oneline /* this shows shorter(oneline) version of commit */
 ```
 
-<img src="/public/assets/git/git-log.png" alt="git log image">
+<img src="https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458970/git/git-log_rh19di.png" alt="git log image">
 
 ### Useful Git Commands
 
 Here are some key Git commands to help you get started:
 
 To explore other commands first of all let's write something to file1.txt:
-<img src="/public/assets/git/add-some-more.png" alt="append something to a file"/>
+<img src="https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458969/git/add-some-more_jpdsw6.png" alt="append something to a file"/>
 
 ```bash
 git diff
 ```
 
 It shows the changes in your working directory that are not yet staged. It means you have changed some file but you haven't added them in staging area.
-<img src="/public/assets/git/git-diff.png" alt="git diff view in terminal"/>
+<img src="https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458970/git/git-diff_kkchuy.png" alt="git diff view in terminal"/>
 
 Here's whats happening here:
 
@@ -208,7 +209,7 @@ Here's whats happening here:
 git diff --staged
 ```
 
-<img src="/public/assets/git/git-staged.png" alt="shows git staged in terminal"/>
+<img src="https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458971/git/git-staged_pzt1gn.png" alt="shows git staged in terminal"/>
 
 Shows the differences between the staged changes (the changes that are ready to be committed) and the last commit. This command helps you review what changes are currently staged for the next commit.
 
@@ -218,7 +219,7 @@ Shows the differences between the staged changes (the changes that are ready to 
 git show HEAD~1
 ```
 
-<img src="/public/assets/git/git-show-head.png" alt="git show head"/>
+<img src="https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458970/git/git-show-head_adxgus.png" alt="git show head"/>
 
 Here it shows nothing because:
 HEAD is a pointer that points to the commit you currently are in.
@@ -229,7 +230,7 @@ And `~`1 indicates "one commit before HEAD."So HEAD~1 points to the commit that 
 We have a single commit currently in our repository hence, the commit before the current commit doesn't exists.
 
 So, you can also use the hash of a commit instead of HEAD~1 to show the information about commit `git show b95e47e1eaf3`
-<img src="/public/assets/git/git-show.png" alt="git show using hash"/>
+<img src="https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458969/git/git-show_x5dpgy.png" alt="git show using hash"/>
 
 Restore changes: If you want to undo changes in the staging area:
 
@@ -237,7 +238,7 @@ Restore changes: If you want to undo changes in the staging area:
 git restore --staged file1.txt
 ```
 
-<img src='/public/assets/git/git-restore.png'/>
+<img src='https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458970/git/git-restore_lxqjsm.png'/>
 
 You can see how to restore, when using command `git status`. This command will be useful if you accidentally added something in the staging area using `git add file..`.
 
@@ -252,7 +253,7 @@ The command git restore file1.txt is used to discard changes in the file file1.t
 Say you have made some changes in your file after commiting(like we have added in file1.txt) and you haven't yet added them in staging area or commited. Now how do you remove the changes you made to the local file?? Here's where you use this command.
 
 By using previous command we removed our file1.txt from staging area but it still exists in our local file. Let's remove it.
-<img src="/public/assets/git/git-restore-local.png" alt="image removing file1.txt from local file"/>
+<img src="https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458969/git/git-restore-local_d4do1h.png" alt="image removing file1.txt from local file"/>
 
 > Note: Untracked files are not removed by restore(it means that files that are not yet tracked by Git (i.e., files that have never been added to the staging area with `git add`) are unaffected by the git restore command.). To remove them we use(This will remove all untracked files.):
 
@@ -270,11 +271,11 @@ Say you accidently commited something and you want to undo it. We use this comma
 
 This will reset your project to the specified commit(change the state of your project to what it was when you commited the commit `commit-id`)
 
-<img src='/public/assets/git/git-add.png' alt="image of adding something to file1.txt and commiting it"/>
+<img src='https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458970/git/git-add_ealkgl.png' alt="image of adding something to file1.txt and commiting it"/>
 
 Now let's reset our repository to before we accidently commited just now.
 
-<img src='/public/assets/git/git-reset.png' alt='image reseting to first commit'/>
+<img src='https://res.cloudinary.com/dqfhcwaba/image/upload/v1728458971/git/git-reset_oil2eb.png' alt='image reseting to first commit'/>
 
 <span style="font-size: 1.5em;">**Conclusion:**</span>
 
