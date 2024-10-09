@@ -51,6 +51,6 @@ export default defineConfig({
     contentLayer: true,
   },
 
-  output: "server",
+  output: "static",
   adapter: netlify(),
 });
