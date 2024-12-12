@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Bibek Bhusal",
   profile: "https://www.linkedin.com/in/bibekbhusal1/",
   desc: "Bibek Bhusal – Full-stack developer specializing in JavaScript, React, Node.js, Docker, and AWS. Expert in building scalable, high-performance web applications with modern tools and cloud technologies. Follow for insights and projects.",
-  title: "Bibek Bhusal | Full-Stack Developer",
+  title: "Bibek Bhusal",
   ogImage: "ogImage.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
