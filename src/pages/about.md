@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-I'm Bibek Bhusal, a full-stack developer from Butwal, Nepal, with over 3+ years of experience in software development. Currently, I am pursuing a BSc CSIT degree while refining my skills in building robust, scalable, and high-performance applications.
+Hello, I'm Bibek Bhusal, a full-stack developer from Butwal, Nepal, with over 3+ years of experience in software development. Currently, I am pursuing a BSc CSIT degree while refining my skills in building robust, scalable, and high-performance applications.
 
 My expertise lies in using JavaScript for both frontend and backend development. I work with modern tools and frameworks like React for building dynamic user interfaces and Node.js with Express for creating efficient server-side applications. I am also proficient in leveraging Docker for containerization and AWS for deploying scalable cloud solutions. I emphasize automation and integration with CI/CD pipelines to ensure seamless development workflows.
 

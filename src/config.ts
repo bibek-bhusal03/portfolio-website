@@ -2,10 +2,10 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://bibekbhusal0.com.np/", // replace this with your deployed domain
-  author: "Bibek",
+  author: "Bibek Bhusal",
   profile: "https://www.linkedin.com/in/bibekbhusal1/",
-  desc: "Full-stack developer specializing in JavaScript, React, Node.js, Docker, and AWS. Building scalable, high-performance web applications with modern tools and cloud technologies.",
-  title: "Bibek Bhusal",
+  desc: "Bibek Bhusal – Full-stack developer specializing in JavaScript, React, Node.js, Docker, and AWS. Expert in building scalable, high-performance web applications with modern tools and cloud technologies. Follow for insights and projects.",
+  title: "Bibek Bhusal | Full-Stack Developer",
   ogImage: "ogImage.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
