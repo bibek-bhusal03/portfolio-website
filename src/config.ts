@@ -32,30 +32,30 @@ export const SOCIALS: SocialObjects = [
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
-  {
-    name: "Facebook",
-    href: "https://www.facebook.com/bibek.bhusal.391",
-    linkTitle: `${SITE.title} on Facebook`,
-    active: true,
-  },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/bibek_bhusal_/",
-    linkTitle: `${SITE.title} on Instagram`,
-    active: true,
-  },
+  // {
+  //   name: "Facebook",
+  //   href: "https://www.facebook.com/bibek.bhusal.391",
+  //   linkTitle: `${SITE.title} on Facebook`,
+  //   active: true,
+  // },
+  // {
+  //   name: "Instagram",
+  //   href: "https://www.instagram.com/bibek_bhusal_/",
+  //   linkTitle: `${SITE.title} on Instagram`,
+  //   active: true,
+  // },
   {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/bibekbhusal1/",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
-  {
-    name: "Mail",
-    href: "mailto:bibekbhusal67@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
-    active: true,
-  },
+  // {
+  //   name: "Mail",
+  //   href: "mailto:bibekbhusal67@gmail.com",
+  //   linkTitle: `Send an email to ${SITE.title}`,
+  //   active: true,
+  // },
   {
     name: "Twitter",
     href: "https://x.com/bibekbhsl",
@@ -104,12 +104,12 @@ export const SOCIALS: SocialObjects = [
   //   linkTitle: `${SITE.title} on CodePen`,
   //   active: false,
   // },
-  {
-    name: "Discord",
-    href: "Discordapp.com/users/bibekbhusal_27221",
-    linkTitle: `${SITE.title} on Discord`,
-    active: true,
-  },
+  // {
+  //   name: "Discord",
+  //   href: "Discordapp.com/users/bibekbhusal_27221",
+  //   linkTitle: `${SITE.title} on Discord`,
+  //   active: true,
+  // },
   // {
   //   name: "GitLab",
   //   href: "https://github.com/satnaing/astro-paper",

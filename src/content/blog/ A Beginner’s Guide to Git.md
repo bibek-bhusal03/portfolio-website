@@ -2,7 +2,7 @@
 author: Bibek Bhusal
 pubDatetime: 2024-10-03T10:00:00Z
 title: A Beginner’s Guide to Git for Everyday Use
-featured: false
+featured: true
 tags:
   - git
   - version control
