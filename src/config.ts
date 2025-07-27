@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://bibekbhusal0.com.np/", // replace this with your deployed domain
+  website: "https://bibekbhusal0.com.np/",
   author: "Bibek Bhusal",
   profile: "https://www.linkedin.com/in/bibekbhusal1/",
   desc: "Bibek Bhusal – Full-stack developer specializing in JavaScript, React, Node.js, Docker, and AWS. Expert in building scalable, high-performance web applications with modern tools and cloud technologies. Follow for insights and projects.",
@@ -9,7 +9,7 @@ export const SITE: Site = {
   ogImage: "ogImage.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
-  postPerPage: 3,
+  postPerPage: 6,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
@@ -74,12 +74,12 @@ export const SOCIALS: SocialObjects = [
     linkTitle: `${SITE.title} on YouTube`,
     active: true,
   },
-  {
-    name: "WhatsApp",
-    href: " https://wa.me/9748804090",
-    linkTitle: `${SITE.title} on WhatsApp`,
-    active: true,
-  },
+  // {
+  //   name: "WhatsApp",
+  //   href: " https://wa.me/9748804090",
+  //   linkTitle: `${SITE.title} on WhatsApp`,
+  //   active: true,
+  // },
   // {
   //   name: "Snapchat",
   //   href: "https://github.com/satnaing/astro-paper",

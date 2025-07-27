@@ -13,6 +13,7 @@ readingTime: "3 min"
 ---
 
 # Basic server setup with express
+This blog helps setup backend with typescript for Nodejs projects.
 
 ## Step 1: Install package for typescript & types for nodejs.
 
