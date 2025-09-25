@@ -285,4 +285,4 @@ In this blog, we've covered the basics you'll use every day. As you grow more co
 
 And we use **Github** to store our project with git repository. I'll be creating separate blog for that. So stay tuned for that.
 
-If you didn't understand git then I also have a video explaining it. [Video on git](https://youtu.be/4KUHSv7EZQM?si=PqXoNoDeSACtHbcQ)
+If you still have confusion regarding Git then I also have a video explaining it. [Git Tutorial for Beginners](https://youtu.be/4KUHSv7EZQM?si=PqXoNoDeSACtHbcQ)
